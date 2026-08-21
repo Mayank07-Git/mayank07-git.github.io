@@ -4,17 +4,18 @@
    ========================================================= */
 
 :root {
-    --bg: #080b10;
-    --bg-soft: #0d1219;
-    --bg-card: #111821;
+    --bg: #F4F6F5;
+    --bg-soft: #FFFFFF;
+    --bg-card: #FFFFFF;
 
-    --border: #202a35;
+    --border: #D9E1DE;
 
-    --text: #e8edf3;
-    --text-muted: #9aa7b5;
+    --text: #172523;
+    --text-muted: #66736F;
 
-    --accent: #4ade80;
-    --accent-dark: #22c55e;
+    --accent: #0F766E;
+    --accent-secondary: #64748B;
+    --accent-dark: #115E59;
 
     --max-width: 1180px;
 }
@@ -60,7 +61,7 @@ img {
 
 ::selection {
     background: var(--accent);
-    color: #061008;
+    color: #FFFFFF;
 }
 
 
@@ -73,12 +74,12 @@ body {
 
     background-image:
         linear-gradient(
-            rgba(255, 255, 255, 0.025) 1px,
+            rgba(15, 118, 110, 0.035) 1px,
             transparent 1px
         ),
         linear-gradient(
             90deg,
-            rgba(255, 255, 255, 0.025) 1px,
+            rgba(15, 118, 110, 0.035) 1px,
             transparent 1px
         );
 
@@ -97,10 +98,10 @@ body {
 
     width: 100%;
 
-    background: rgba(8, 11, 16, 0.88);
+    background: rgba(255, 255, 255, 0.94);
     backdrop-filter: blur(16px);
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid var(--border);
 }
 
 .nav-container {
@@ -177,7 +178,7 @@ body {
 
 .nav-cv:hover {
     background: var(--accent);
-    color: #061008;
+    color: #FFFFFF;
 }
 
 
@@ -219,7 +220,7 @@ body {
 
     transform: translateY(-50%);
 
-    background: rgba(74, 222, 128, 0.055);
+    background: rgba(15, 118, 110, 0.075);
 
     filter: blur(80px);
 
@@ -275,7 +276,7 @@ body {
 .hero-description {
     max-width: 760px;
 
-    color: #aab8c8;
+    color: #5E6C68;
 
     font-size: 18px;
     line-height: 1.7;
@@ -330,17 +331,17 @@ body {
 
 .btn-primary {
     background: var(--accent);
-    color: #061008;
+    color: #FFFFFF;
 }
 
 .btn-primary:hover {
-    background: #65e991;
+    background: #0D665F;
 }
 
 .btn-secondary {
     border: 1px solid var(--border);
     color: var(--text);
-    background: rgba(255, 255, 255, 0.02);
+    background: #FFFFFF;
 }
 
 .btn-secondary:hover {
@@ -391,13 +392,13 @@ body {
     width: min(430px, 90%);
     aspect-ratio: 1 / 1;
 
-    border: 2px solid rgba(74, 222, 128, 0.9);
+    border: 2px solid rgba(15, 118, 110, 0.65);
 
     border-radius: 50%;
 
     box-shadow:
-        0 0 25px rgba(74, 222, 128, 0.10),
-        0 0 70px rgba(74, 222, 128, 0.06);
+        0 0 25px rgba(15, 118, 110, 0.10),
+        0 0 70px rgba(15, 118, 110, 0.06);
 
     pointer-events: none;
 }
@@ -416,11 +417,11 @@ body {
 
     border-radius: 50%;
 
-    border: 2px solid rgba(74, 222, 128, 0.75);
+    border: 2px solid rgba(15, 118, 110, 0.70);
 
     box-shadow:
-        0 0 0 12px rgba(74, 222, 128, 0.035),
-        0 0 45px rgba(74, 222, 128, 0.12);
+        0 0 0 12px rgba(15, 118, 110, 0.055),
+        0 0 45px rgba(15, 118, 110, 0.12);
 }
 
 
@@ -524,7 +525,7 @@ body {
         linear-gradient(
             145deg,
             rgba(255, 255, 255, 0.035),
-            rgba(255, 255, 255, 0.01)
+            rgba(15, 118, 110, 0.018)
         );
 
     border: 1px solid var(--border);
@@ -631,7 +632,7 @@ body {
 
     font-size: 13px;
 
-    background: rgba(255, 255, 255, 0.02);
+    background: #FFFFFF;
 }
 
 
@@ -662,7 +663,7 @@ body {
         linear-gradient(
             145deg,
             rgba(255, 255, 255, 0.035),
-            rgba(255, 255, 255, 0.01)
+            rgba(15, 118, 110, 0.018)
         );
 
     border: 1px solid var(--border);
@@ -746,7 +747,7 @@ body {
 }
 
 .project-link:hover {
-    color: #86efac;
+    color: #0D665F;
 }
 
 
@@ -819,7 +820,7 @@ body {
     min-width: 0;
     overflow: hidden;
 
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(15, 118, 110, 0.035);
 
     border: 1px solid var(--border);
     border-radius: 14px;
@@ -836,7 +837,7 @@ body {
     border-color: var(--accent);
 
     box-shadow:
-        0 16px 45px rgba(0, 0, 0, 0.25);
+        0 16px 45px rgba(23, 37, 35, 0.10);
 }
 
 
@@ -1024,7 +1025,7 @@ body {
     background:
         linear-gradient(
             145deg,
-            rgba(74, 222, 128, 0.08),
+            rgba(15, 118, 110, 0.075),
             rgba(255, 255, 255, 0.02)
         );
 
@@ -1101,7 +1102,7 @@ body {
 
     background: var(--accent);
 
-    color: #061008;
+    color: #FFFFFF;
 
     border-radius: 8px;
 
@@ -1121,7 +1122,7 @@ body {
     transform: translateY(-2px);
 
     box-shadow:
-        0 10px 30px rgba(74, 222, 128, 0.2);
+        0 10px 30px rgba(15, 118, 110, 0.18);
 }
 
 
@@ -1149,7 +1150,7 @@ body {
 
     padding: 22px;
 
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(15, 118, 110, 0.035);
 
     border: 1px solid var(--border);
 
@@ -1171,7 +1172,7 @@ body {
 
     border-color: var(--accent);
 
-    background: rgba(74, 222, 128, 0.04);
+    background: rgba(15, 118, 110, 0.045);
 }
 
 
@@ -1670,5 +1671,87 @@ body {
 
     .hero-image img {
         width: 250px;
+    }
+}
+
+
+/* =========================================================
+   LIGHT THEME REFINEMENTS
+   ========================================================= */
+
+body {
+    min-width: 320px;
+}
+
+.navbar {
+    box-shadow: 0 1px 12px rgba(23, 37, 35, 0.04);
+}
+
+.logo {
+    color: var(--text);
+}
+
+.hero-description,
+.section-heading > p:last-child,
+.about-content p,
+.project-card > p:not(.project-subtitle),
+.project-card ul,
+.education-item p,
+.certificate-content > p:not(.certificate-issuer),
+.contact-card p,
+.footer-brand p,
+.footer-description p {
+    color: var(--text-muted);
+}
+
+.about-highlight,
+.skill-card,
+.project-card,
+.certificate-card,
+.contact-link-card {
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 8px 30px rgba(23, 37, 35, 0.035);
+}
+
+.about-highlight:hover,
+.skill-card:hover,
+.project-card:hover,
+.certificate-card:hover {
+    box-shadow: 0 14px 35px rgba(23, 37, 35, 0.07);
+}
+
+.skill-tags span {
+    background: #F8FAF9;
+    color: #5F6D69;
+}
+
+.btn-secondary {
+    background: #FFFFFF;
+}
+
+.contact-card {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(15, 118, 110, 0.075),
+            rgba(255, 255, 255, 0.92)
+        );
+}
+
+.contact-link-card {
+    background: rgba(255, 255, 255, 0.82);
+}
+
+.site-footer {
+    background: #EEF2F0;
+}
+
+@media (max-width: 720px) {
+    .hero {
+        gap: 42px;
+    }
+
+    .hero-image {
+        margin-top: 5px;
     }
 }
